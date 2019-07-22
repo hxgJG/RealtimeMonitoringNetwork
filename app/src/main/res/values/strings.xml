@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">RecognizerDemo</string>
+    <string name="decibel_format">%1$.1f dB</string>
+</resources>
