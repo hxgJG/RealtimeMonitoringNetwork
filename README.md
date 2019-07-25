@@ -22,7 +22,7 @@ public void network(NetType type) {
 }
 ```
 
-##### last: unregister after not use it
+##### finally: unregister after not use it
 ```
 NetworkManager.getDefault().unregister(this)
 ```
