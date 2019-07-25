@@ -2,19 +2,19 @@
 
 Real-time network monitoring framework
 
-###How to use it?
+### How to use it?
 
-#####first: init in onCreate in Application
+##### first: init in onCreate in Application
 ```
 NetworkManager.getDefault().init(this);
 ```
 
-#####second: register before use it
+##### second: register before use it
 ```
 NetworkManager.getDefault().register(this)
 ```
 
-#####third: use @Network annotation
+##### third: use @Network annotation
 ```
 @Network(netType = NetType.WIFI)
 public void network(NetType type) {
@@ -22,7 +22,7 @@ public void network(NetType type) {
 }
 ```
 
-#####last: unregister after not use it
+##### last: unregister after not use it
 ```
 NetworkManager.getDefault().unregister(this)
 ```
