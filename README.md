@@ -16,9 +16,9 @@ NetworkManager.getDefault().register(this)
 
 ##### third: use @Network annotation
 ```
-@Network(netType = NetType.WIFI)
-public void network(NetType type) {
-    Log.i("test", type.toString());
+@Network
+fun network(type: NetType) {
+    Log.e("test", "network --> type = ${type.name}")
 }
 ```
 
